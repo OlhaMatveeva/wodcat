@@ -1,0 +1,117 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1376px) {
+	.right_menu a {
+		color: #adafaf;
+		font-size: 14px;
+		display: block;
+		padding: 10px 15px;
+	}
+	.left_menu ul{
+		display: block;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.left_menu ul{
+		display:none;
+	}
+	.left_menu {
+		padding: 0px;
+
+}
+
+	.left_menu a{
+		color: #adafaf;
+		font-size: 20px;
+		display: block;
+		padding: 15px 5px 5px 25px;
+		background-image: url("../img/top_mnu_iconset.png");
+		background-repeat: no-repeat;}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 752px) {
+	.right_menu a {
+		color: #adafaf;
+		font-size: 13px;
+		display: block;
+		padding: 10px 10px;
+	}
+
+
+}
+@media only screen and (max-width : 690px) {
+	.cart {
+		height: 80vh;
+	    width: 580px;
+	    background-color: #fff;
+	    margin: 0px 30px 0px 30px;
+	}
+
+}
+@media only screen and (max-width : 646px) {
+	.cart {
+	    height: 80vh;
+	    width: 500px;
+	    background-color: #fff;
+	    margin: 0px 30px 0px 30px;
+	}
+	.right_menu a {
+		color: #adafaf;
+		font-size: 10px;
+		display: block;
+		padding: 10px 10px;
+	}
+
+.setting_icon {
+    float: right;
+    margin: 24px 18px;
+		font-size: 17px;
+}
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.left_menu ul{
+ 		display: block !important ;
+ 	}
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.left_menu ul{
+ 		display: block !important ;
+ 	}
